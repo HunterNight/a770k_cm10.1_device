@@ -1,0 +1,14 @@
+# Add device specific blobs here
+# Wi-Fi
+etc/wifi/nv_bcmdhd.txt
+etc/wifi/nvram_murata_B2_EF65L.txt
+
+# NFC
+lib/hw/nfc.default.so
+vendor/firmware/libpn544_fw.so
+
+# vendor
+vendor/lib/drm/libdrmwvmplugin.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/libwvm.so
+vendor/lib/libWVStreamControlAPI_L3.so
